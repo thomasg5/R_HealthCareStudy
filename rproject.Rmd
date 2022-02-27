@@ -44,8 +44,8 @@ library("tidyverse")
 Next, loading the individual data sets and unifying them into a single data frame with all the 20 years of data, through the column binding function with a slicing in the second data set, to ignore the duplicated columns.
 
 ```{r, message = FALSE}
-ds1 <- read_csv("C:/Users/thomas/Downloads/World Development Indicators/WDI 2001-2010.csv")
-ds2 <- read_csv("C:/Users/thomas/Downloads/World Development Indicators/WDI 2011-2020.csv")
+ds1 <- read_csv("C:/*/World Development Indicators/WDI 2001-2010.csv")
+ds2 <- read_csv("C:/*/World Development Indicators/WDI 2011-2020.csv")
 
 data <- cbind(ds1, ds2[, 5:14])
 ```
