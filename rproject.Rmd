@@ -2,7 +2,7 @@
 title: "Health Care Expenditure vs. Social Indicators: A lookup on how the former affects the latter"
 author: "Thomas Green"
 date: "27/02/2022"
-output: html_document
+output: rmarkdown::github_document
 ---
 
 *Disclaimer: This document was generated with the sole purpose of serving as a portfolio Data Analysis project, not intended to structure and perform a real scientific study since I'm not an expert on the subject and neither consulted with experts to guide the study, serving only as a technical display.*
